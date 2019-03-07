@@ -1,0 +1,43 @@
+/* pages/scan/scan.wxss */
+
+.contentView {
+  align-items: center;
+  justify-content: center;
+}
+
+.imageView{
+  width: 100%;
+  height: 400rpx;
+  margin-top: 150rpx;
+}
+
+.titleView{
+  margin-top: 20rpx;
+  width: 100%;
+  height: 60rpx;
+  font-size: 34rpx;
+  text-align: center;
+  color: rgb(150, 150, 150);
+}
+
+.notiTitleView{
+  margin-top: 40rpx;
+  font-size: 26rpx;
+  font-weight: 600;
+  margin-left: 40rpx;
+}
+.contentView1{
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}
+
+.titleView1{
+  margin-top: 30rpx;
+  width: 100%;
+  height: 60rpx;
+  font-size: 34rpx;
+  text-align: center;
+  color: #0E63FE;
+}

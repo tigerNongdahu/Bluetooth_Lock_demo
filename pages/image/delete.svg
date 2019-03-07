@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>删除</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="手机号登录-copy-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-680.000000, -454.000000)">
+        <g id="删除" transform="translate(678.000000, 452.000000)">
+            <rect id="Rectangle" fill="#FFFFFF" opacity="0" x="0" y="0" width="32" height="32"></rect>
+            <circle id="Oval-6" fill="#CACBD3" cx="16" cy="16" r="14"></circle>
+            <polygon id="Page-1" fill="#FFFFFF" points="22.018 8 15.998 14.018 9.982 8 8 9.982 14.016 16.002 8 22.018 9.982 24 15.998 17.982 22.018 24 24 22.018 17.982 16.002 24 9.982"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>手机</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="408" width="750" height="120"></rect>
+    </defs>
+    <g id="手机号登录-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-40.000000, -450.000000)">
+        <rect id="Rectangle" fill="#F6F5F8" x="0" y="0" width="750" height="1334"></rect>
+        <g id="Rectangle-11">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <rect stroke="#E4E4EB" stroke-width="1" x="-0.5" y="407.5" width="751" height="121"></rect>
+        </g>
+        <g id="Page-1" transform="translate(46.000000, 450.000000)" fill="#077ECD">
+            <path d="M23.0004,0 L1.0004,0 C0.4484,0 0.0004,0.448 0.0004,1 L0.0004,35 C0.0004,35.552 0.4484,36 1.0004,36 L23.0004,36 C23.5524,36 24.0004,35.552 24.0004,35 L24.0004,1 C24.0004,0.448 23.5524,0 23.0004,0 Z M3.0004,33 L21.0004,33 L21.0004,3 L3.0004,3 L3.0004,33 Z" id="Fill-4"></path>
+            <polygon id="Fill-7" points="1 28 23 28 23 25 1 25"></polygon>
+            <path d="M13.5004,30.5 C13.5004,31.328 12.8284,32 12.0004,32 C11.1704,32 10.5004,31.328 10.5004,30.5 C10.5004,29.672 11.1704,29 12.0004,29 C12.8284,29 13.5004,29.672 13.5004,30.5" id="Fill-9"></path>
+        </g>
+    </g>
+</svg>

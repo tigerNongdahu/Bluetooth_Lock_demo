@@ -1,0 +1,60 @@
+<!--pages/connectBluetooth/connectBluetooth.wxml-->
+<view class="container">
+  <view class='sectionView'>
+    <view class='sectionView_topView'>
+      <view class='numberView'>
+        <view>1</view>
+      </view>
+      <block wx:if="{{isRead == true}}">
+        <view class='titeView' style='font-weight: 600;color:black'>读取设备信息</view>
+      </block>
+      <block wx:else>
+        <view class='titeView' style='font-weight: 600;color:rgb(150, 150, 150)'>读取设备信息</view>
+      </block>
+    </view>
+    <view class='section_bottomView'>{{readStatu}}</view>
+  </view>
+  <view class='sectionView'>
+    <view class='sectionView_topView'>
+      <view class='numberView'>
+        <view>2</view>
+      </view>
+      <block wx:if="{{isRegister == true}}">
+        <view class='titeView' style='font-weight: 600;color:black'>注册设备</view>
+      </block>
+      <block wx:else>
+        <view class='titeView' style='font-weight: 600;color:rgb(150, 150, 150)'>注册设备</view>
+      </block>
+    </view>
+    <view class='section_bottomView'>{{registerStatu}}</view>
+  </view>
+  <view class='sectionView'>
+    <view class='sectionView_topView'>
+      <view class='numberView'>
+        <view>3</view>
+      </view>
+      <block wx:if="{{isOpenLock == true}}">
+        <view class='titeView' style='font-weight: 600;color:black'>蓝牙开锁</view>
+      </block>
+      <block wx:else>
+        <view class='titeView' style='font-weight: 600;color:rgb(150, 150, 150)'>蓝牙开锁</view>
+      </block>
+    </view>
+    <view class='section_bottomView'>{{openStatu}}</view>
+  </view>
+  <!-- <view class='sectionView'>
+    <view class='sectionView_topView'>
+      <view class='numberView'>
+        <view>4</view>
+      </view>
+      <block wx:if="{{isRemoteLock == true}}">
+        <view class='titeView' style='font-weight: 600;color:black'>验证远程开锁</view>
+      </block>
+      <block wx:else>
+        <view class='titeView' style='font-weight: 600;color:rgb(150, 150, 150)'>验证远程开锁</view>
+      </block>
+    </view>
+    <view class='section_bottomView'>{{remoteStatu}}</view>
+  </view> -->
+
+</view>

@@ -1,0 +1,40 @@
+<!--pages/searchBluetooth/searchBluetooth.wxml-->
+<!--pages/searchBluetooth/searchBluetooth.wxml-->
+
+<view class="container">
+  <view class="section_one">
+    <view class='searchView'>
+      <image class='blueImageView' src='../image/bluetooth.svg' mode='aspectFill'></image>
+      <view class='statuBtn'>
+        <button type="default" size="{{primarySize}}" loading="{{searchingstatus}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="searchbluetooth" class='btn'> {{searchingstatus?"点击停止搜索":"点击搜索设备"}} </button>
+      </view>
+    </view>
+    <view class='notiView'>
+      <view>安卓手机，请先打开定位服务，</view>
+      <view>否则将无法搜索到蓝牙设备</view>
+    </view>
+  </view>
+  <view class='title'>
+    <view>搜索结果列表</view>
+  </view>
+  <scroll-view scroll-y="true" class="page_body" style="left:0;right:0;width:100%;height:{{list_height}}rpx">
+    <!-- <view class="nav_section"> -->
+    <view wx:for="{{deviceList}}" wx:key="item.deviceId">
+      <view class="nav_section_items" id="{{item.deviceId}}" style="right:{{item.right}}px" data-name="{{item.name}}" data-serverid="{{item.serviceId}}" data-mac="{{item.deviceMac}}" bindtap='gotoAddDevice'>
+        <!--image-->
+        <view class="section_image">
+          <image src="../image/bluetoothLock.svg" mode="aspectFill"></image>
+        </view>
+        <!--content-->
+        <view class="section_cont">
+          <view class="section_cont_sub">
+            名称: {{item.name}}
+          </view>
+          <view class="section_cont_price" style="color:#777">MAC: {{item.deviceMac}}</view>
+        </view>
+        <view class='RSSIView'>信号:{{item.RSSI}}</view>
+      </view>
+    </view>
+    <!-- </view> -->
+  </scroll-view>
+</view>

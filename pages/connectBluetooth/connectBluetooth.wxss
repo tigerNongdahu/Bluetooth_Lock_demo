@@ -1,0 +1,55 @@
+/* pages/connectBluetooth/connectBluetooth.wxss */
+.sectionView{
+  width: 100%;
+  margin-top: 40rpx;
+  background: white;
+  padding: 30rpx;
+}
+
+.sectionView_topView{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  height: 80rpx;
+  padding-left: 30rpx;
+}
+
+.numberView{
+  font-size: 30rpx;
+  width: 60rpx;
+  height: 60rpx;
+  background: lightgray;
+  border-radius: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numberView view{
+  font-size: 34rpx;
+  font-weight: 600;
+}
+
+.titeView{
+  font-size: 34rpx;
+  margin-left: 20rpx;
+  font-weight: 600;
+}
+
+.section_bottomView{
+  font-size: 30rpx;
+  color: rgb(150, 150, 150);
+  margin-left: 40rpx;
+}
+
+.loginBtn{
+  width: 80%;
+  height: 80rpx;
+  margin-top: 60rpx;
+  color: white;
+  font-size: 34rpx;
+  border-radius: 40rpx;
+  background: linear-gradient(to right, rgb(25, 160, 255), rgb(14, 91, 225));
+}

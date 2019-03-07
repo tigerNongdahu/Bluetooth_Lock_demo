@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/scan/scan",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/connectBluetooth/connectBluetooth",
+    "pages/searchBluetooth/searchBluetooth"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0E63FE",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"#ffffff"
+  }
+}
